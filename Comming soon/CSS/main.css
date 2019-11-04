@@ -1,0 +1,188 @@
+.container {
+    display: inline-block;
+    width: 100%;    
+}
+
+.bg-blue {
+    background-color: #6fb2f8;
+}
+
+.min-height {
+    min-height: 100vh;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+/******************
+ * HERO
+ ******************/
+.hero {
+    display: inline-block;
+    width: 600px;
+    margin: 60px calc( (100% - 600px) / 2 ) 20px;
+    text-align: center;
+}
+    .hero > img {
+        display: inline-block;
+        margin-bottom: 60px;
+    }
+    .hero > h1 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        word-spacing: -5px;
+        letter-spacing: -3px;
+    }
+    .hero > p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+        color: gray;
+        font-size: 21px;
+        line-height: 30px;
+        font-weight: lighter;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .hero > .clock {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .hero > form {
+        display: inline-block;
+        width: 90%;
+        margin: 0 5% 25px;
+    }
+        .hero > form > input {
+            color: #fff;
+            border-bottom-color: #fff;
+            outline: none;
+        }
+        .hero > form > input::placeholder {
+            color: #fff;
+        }
+    .hero > .mouse {
+        display: inline-block;
+    }
+
+
+/******************
+ * MAIN CONTENT
+ ******************/
+.content {
+    display: inline-block;
+    width: 1100px;
+    margin: 60px calc( (100% - 1100px) / 2 );
+}
+    .content > .left {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+    .content > .right {
+        display: inline-block;
+        width: 40%;
+        float: right;
+    }
+    .content h3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+    .content p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+        .content p > a {
+            text-decoration: none;
+            color: red;
+        }
+    .content .progress-bar {
+        display: inline-block;
+        width: 100%;
+    }
+    .content form {
+        display: inline-block;
+        width: 100%;
+    }
+        .content form input {
+            width: 45%;
+            float: left;
+        }
+        .content form input[name="email"] {
+            float: right;
+        }
+
+/******************
+ * FOOTER
+ ******************/
+.footer {
+    display: inline-block;
+    width: 1100px;
+    padding: 20px 0 60px;
+    margin: 0 calc( (100% - 1100px) / 2 );
+    text-align: center;
+    position: relative;
+}
+    .footer > .btn {
+        position: absolute;
+        top: -30px;
+        right: -20px;
+    }
+    .footer > .socials {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #fff;
+    }
+        .footer > .socials > a {
+            width: 40px;
+            padding: 10px;
+            color: red;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 20px;
+        }
+            .footer > .socials > a:hover {
+                background-color: #fff;
+                color: #000;
+                border-radius: 50%;
+            }
+    .footer > .credits {
+        display: inline-block;
+        width: 600px;
+        margin: 0 calc( (100% - 600px) / 2 );
+        font-size: 18px;
+        line-height: 36px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+        .footer > .credits > img {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .footer > .credits > div {
+            display: inline-block;
+            width: 100%;
+        }
+            .footer > .credits span {
+                display: inline-block;
+            }
+                .footer span > a {
+                    display: inline-block;
+                    color: #fff;
+                    text-decoration: none;
+                }
+        .footer > .credits > p {
+            display: inline-block;
+            width: 100%;
+        }
